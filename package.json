@@ -86,7 +86,8 @@
     "gulp-concat": "~2.2.0",
     "gulp": "~3.8.2",
     "preconditions": "^1.0.7",
-    "asn1.js": "0.4.1"
+    "asn1.js": "0.4.1",
+    "scryptsy": "0.2.x"
   },
   "testling": {
     "harness": "mocha-bdd",
@@ -114,6 +115,13 @@
   "engines": {
     "node": ">=0.10"
   },
+  "readmeFilename": "README.md",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/bitpay/bitcore/issues"
+  },
+  "homepage": "https://github.com/bitpay/bitcore",
+  "_id": "bitcore@0.1.32",
   "devDependencies": {
     "sinon": "^1.10.3",
     "express": "4.6.1",
