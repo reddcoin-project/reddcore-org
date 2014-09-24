@@ -7,30 +7,25 @@ var hex = function(hex) {
 exports.livenet = {
   name: 'livenet',
   magic: hex('f9beb4d9'),
-  addressVersion: 0x00,
-  privKeyVersion: 128,
+  addressVersion: 61,
+  privKeyVersion: 189,
   P2SHVersion: 5,
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
   genesisBlock: {
-    hash: hex('6FE28C0AB6F1B372C1A6A246AE63F74F931E8365E15A089C68D6190000000000'),
-    merkle_root: hex('3BA3EDFD7A7B12B27AC72C3E67768F617FC81BC3888A51323A9FB8AA4B1E5E4A'),
+    hash: hex('CCDEC174EBD4FA10314B3B9EF9CB8ADCF9AA87E57EC6AD0D0E3C3C5AD9E068B8'),
+    merkle_root: hex('FF79AF16A9FFEB1B826DE1EA7F24539A2FE3702FE987912B09072BC41DBC02B5'),
     height: 0,
-    nonce: 2083236893,
+    nonce: 222583475,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1231006505,
-    bits: 486604799,
+    timestamp: 1390280400,
+    bits: 504365040,
   },
   dnsSeeds: [
-    'seed.bitcoin.sipa.be',
-    'dnsseed.bluematt.me',
-    'dnsseed.bitcoin.dashjr.org',
-    'seed.bitcoinstats.com',
-    'seed.bitnodes.io',
-    'bitseed.xf2.org'
+    'seed.reddcoin.com'
   ],
-  defaultClientPort: 8333
+  defaultClientPort: 45444
 };
 
 exports.mainnet = exports.livenet;
@@ -38,24 +33,23 @@ exports.mainnet = exports.livenet;
 exports.testnet = {
   name: 'testnet',
   magic: hex('0b110907'),
-  addressVersion: 0x6f,
+  addressVersion: 111,
   privKeyVersion: 239,
   P2SHVersion: 196,
   hkeyPublicVersion: 0x043587cf,
   hkeyPrivateVersion: 0x04358394,
   genesisBlock: {
-    hash: hex('43497FD7F826957108F4A30FD9CEC3AEBA79972084E90EAD01EA330900000000'),
-    merkle_root: hex('3BA3EDFD7A7B12B27AC72C3E67768F617FC81BC3888A51323A9FB8AA4B1E5E4A'),
+    hash: hex('14D879BCBC6DB4A5F49B15AB710BD3F1DC1FF65361F10B3F6E58649C518DDB46'),
+    merkle_root: hex('FF79AF16A9FFEB1B826DE1EA7F24539A2FE3702FE987912B09072BC41DBC02B5'),
     height: 0,
-    nonce: 414098458,
+    nonce: 1403777,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1296688602,
-    bits: 486604799,
+    timestamp: 1399544585,
+    bits: 504365040,
   },
   dnsSeeds: [
-    'testnet-seed.bitcoin.petertodd.org',
-    'testnet-seed.bluematt.me'
+    'testnet-seed.reddcoin.com'
   ],
-  defaultClientPort: 18333
+  defaultClientPort: 55444
 };
