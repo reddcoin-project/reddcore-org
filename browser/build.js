@@ -12,7 +12,6 @@ var puts = function(error, stdout, stderr) {
 
 var modules = [
   'lib/Address',
-  'lib/Armory',
   'lib/AuthMessage',
   'lib/Base58',
   'lib/HierarchicalKey',
