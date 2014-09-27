@@ -1,16 +1,19 @@
 {
-  "name": "bitcore",
+  "name": "reddcore",
   "main": "browser/bundle.js",
   "version": "0.1.36",
-  "homepage": "http://bitcore.io",
+  "homepage": "https://github.com/reddcoin-project/reddcore",
   "authors": [
-    "Ryan X. Charles (<ryan@bitpay.com>)"
+    "Larry Ren (<ren@reddcoin.com>)"
   ],
-  "description": "A pure, powerful core for your bitcoin project.",
+  "description": "Reddcoin Core Library in Javascript",
   "moduleType": [
     "globals"
   ],
   "keywords": [
+    "reddcoin",
+    "reddcore",
+    "rdd",
     "bitcoin",
     "bitcore",
     "btc",

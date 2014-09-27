@@ -1,12 +1,20 @@
 {
-  "name": "bitcore",
-  "description": "Bitcoin Library",
+  "name": "reddcore",
+  "description": "Reddcoin Core Library in Javascript",
   "version": "0.1.36",
   "author": {
-    "name": "Stephen Pair",
-    "email": "stephen@bitpay.com"
+    "name": "Larry Ren",
+    "email": "ren@reddcoin.com"
   },
   "contributors": [
+    {
+      "name": "Andrew Groff",
+      "email": "andrew@reddcoin.com"
+    },
+    {
+      "name": "Stephen Pair",
+      "email": "stephen@bitpay.com"
+    },
     {
       "name": "Stefan Thomas",
       "email": "moon@justmoon.net"
@@ -33,6 +41,9 @@
     }
   ],
   "keywords": [
+    "reddcoin",
+    "reddcore",
+    "rdd",
     "bitcoin",
     "btc",
     "satoshi",
@@ -43,7 +54,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "https://github.com/reddcoin-project/reddcore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
@@ -118,10 +129,10 @@
   "readmeFilename": "README.md",
   "gypfile": true,
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore/issues"
+    "url": "https://github.com/reddcoin-project/reddcore/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcore",
-  "_id": "bitcore@0.1.32",
+  "homepage": "https://github.com/reddcoin-project/reddcore",
+  "_id": "reddcore@0.1.32",
   "devDependencies": {
     "sinon": "^1.10.3",
     "express": "4.6.1",
