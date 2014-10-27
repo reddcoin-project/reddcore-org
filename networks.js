@@ -25,7 +25,8 @@ exports.livenet = {
   dnsSeeds: [
     'seed.reddcoin.com'
   ],
-  defaultClientPort: 45444
+  defaultClientPort: 45444,
+  lastPoWBlock: 260799
 };
 
 exports.mainnet = exports.livenet;
@@ -49,5 +50,6 @@ exports.testnet = {
     bits: 504365040
   },
   dnsSeeds: [],
-  defaultClientPort: 55444
+  defaultClientPort: 55444,
+  lastPoWBlock: 150
 };
