@@ -11,5 +11,6 @@ coverage
 .DS_Store
 docs
 browser/bitcore-dev.js
-.idea
+browser/testdata.js
 npm-debug.log
+.idea

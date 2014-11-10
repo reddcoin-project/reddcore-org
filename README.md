@@ -109,7 +109,7 @@ node browser/build.js -a
 To generate a customized Reddcore bundle, you can specify which submodules you want to include in it with the -s option:
 
 ```
-node browser/build.js -s Transaction,Address
+node browser/build.js -s lib/Transaction,lib/Address
 ```
 
 This will generate a `browser/bundle.js` containing only the Transaction and Address class, with all their dependencies.
