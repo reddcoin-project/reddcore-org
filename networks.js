@@ -23,6 +23,9 @@ exports.livenet = {
     bits: 504365040
   },
   dnsSeeds: [
+    'dnsseed01.redd.ink',
+    'dnsseed02.redd.ink',
+    'dnsseed03.redd.ink',
     'seed.reddcoin.com'
   ],
   defaultClientPort: 45444,
@@ -40,16 +43,17 @@ exports.testnet = {
   hkeyPublicVersion: 0x043587cf,
   hkeyPrivateVersion: 0x04358394,
   genesisBlock: {
-    hash: hex('14D879BCBC6DB4A5F49B15AB710BD3F1DC1FF65361F10B3F6E58649C518DDB46'),
+    hash: hex('5AE394B3E85B8A14CAA1EA052B1EFE9DFE61FCAA77623AC56262D24CBDC92AA1'),
     merkle_root: hex('FF79AF16A9FFEB1B826DE1EA7F24539A2FE3702FE987912B09072BC41DBC02B5'),
     height: 0,
-    nonce: 1403777,
+    nonce: 2108003,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1399544585,
+    timestamp: 1446002303,
     bits: 504365040
   },
-  dnsSeeds: [],
+  dnsSeeds: [
+     'electrum01-testnet.reddcoin.com'],
   defaultClientPort: 55444,
   lastPoWBlock: 150
 };
